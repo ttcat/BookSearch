@@ -1,0 +1,12 @@
+{
+	"name": "BookSearch",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"deploy": "react-native bundle && fastlane beta"
+		},
+		"dependencies": {
+			"react-native": "^0.18.1"
+		}
+	}
